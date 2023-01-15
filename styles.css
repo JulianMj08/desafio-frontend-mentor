@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Poppins:wght@300&family=Quicksand:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Fredoka+One&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Poppins:wght@300&family=Quicksand:wght@300;500;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+   background-color:  hsl(30, 38%, 92%);
+   display: grid;
+   justify-content: center;
+   height: 100vh;
+   align-content: center;
+
+   
+   
+   
+}
+
+.container {
+    width: 600px;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+
+}
+.imagen img {
+    width: 300px;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    justify-content: space-between;
+    padding: 40px;
+}
+.nombre {
+    color: hsl(228, 12%, 48%);
+}
+
+.precios {
+    display: flex;
+    align-items: center;
+}
+.precio-uno {
+    color: hsl(158, 36%, 37%);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.precio-dos {
+    margin-left: 27px;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    font-weight: 800;
+}
+.boton-carrito {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    height: 40px;
+    align-items: center;
+}
+.icon {
+    margin-right: 8px;
+}
+.add-to-cart {
+    color: hsl(0, 0%, 100%);
+}
+
+
+
